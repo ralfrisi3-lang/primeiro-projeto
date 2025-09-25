@@ -1,7 +1,7 @@
 // 1. Criar variáveis para o nome e a experiência do personagem 
-let nomePersonagem = "Anão"; //alternar entre Mago, Guerreiro, Ladra e Anão para testar
+let nomePersonagem = "Mago"; //alternar entre Mago, Guerreiro, Ladra e Anão para testar
 
-let experienciaPersonagem = 6888; // Pode ser qualquer valor entre 0 e 10000 para testar
+let experienciaPersonagem = 9888; // Pode ser qualquer valor entre 0 e 10000 para testar
 
 // 2. Utilizar uma estrutura de decisão para apresentar mensagens
 if (experienciaPersonagem < 1000) {

@@ -1,8 +1,10 @@
 object ReceitaFederal {
     fun calcularImposto(salario: Double): Double{
         val aliquota = when {
-            (salario >= 0 && salario <= 1100) -> 0,05
-            else -> TODO("criar condições para as aliquotas de 10,00% e 15,00%)
+            (salario >= 0 && salario <= 1100) -> 0.05
+            (salario >= 0 && salario <= 1100) -> 0.10
+            (salario >= 0 && salario <= 1100) -> 0.15
+           
         }
     return aliquota * salario
     } 
